@@ -1,0 +1,103 @@
+\hypertarget{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect}{}\doxysection{Controls.\+Highlighting\+Controls.\+Effects.\+IMontaviz\+Effect Interface Reference}
+\label{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect}\index{Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}}
+
+
+Interface for Montaviz\+Effects, \mbox{\hyperlink{namespace_controls_1_1_highlighting_controls_1_1_effects}{Effects}} inheriting from this Interface can be used in Hierarchical\+Effect\+Manager. An Effect is not linked to a Game\+Object but to a set of renderers. Normally only on Effect-\/\+Instance is created per Model. The renderers are wrapped in Wrapped\+Renderer objects, therefore it is possible to link data to them.   
+
+
+Inheritance diagram for Controls.\+Highlighting\+Controls.\+Effects.\+IMontaviz\+Effect\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.497326cm]{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}\label{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}} 
+enum \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}{Effect\+Type}} 
+\begin{DoxyCompactList}\small\item\em Effect-\/types used by \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_highlighting_control}{Highlighting\+Control}}. Linked implementations can be replaced in \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_addc7e3d9731b7124f974c4c949a290e4}{IMontaviz\+Effect.\+New\+Effect\+Instance}}.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_aacc984096d20ee5fadd83184433a7446}{Apply\+To}} (IEnumerable$<$ \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_wrapped_renderer}{Wrapped\+Renderer}} $>$ renderers)
+\begin{DoxyCompactList}\small\item\em Call to add the effect to the given renderers.  \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_ae1df9c003271ff73ecf3d11c5bb485e2}{Remove\+From}} (IEnumerable$<$ \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_wrapped_renderer}{Wrapped\+Renderer}} $>$ renderers)
+\begin{DoxyCompactList}\small\item\em Call to remove the effect from the given renderers.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect}{IMontaviz\+Effect}} \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_addc7e3d9731b7124f974c4c949a290e4}{New\+Effect\+Instance}} (\mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}{Effect\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Returns a new Instances of a given effect pipe.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface for Montaviz\+Effects, \mbox{\hyperlink{namespace_controls_1_1_highlighting_controls_1_1_effects}{Effects}} inheriting from this Interface can be used in Hierarchical\+Effect\+Manager. An Effect is not linked to a Game\+Object but to a set of renderers. Normally only on Effect-\/\+Instance is created per Model. The renderers are wrapped in Wrapped\+Renderer objects, therefore it is possible to link data to them.  
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_aacc984096d20ee5fadd83184433a7446}\label{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_aacc984096d20ee5fadd83184433a7446}} 
+\index{Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}!ApplyTo@{ApplyTo}}
+\index{ApplyTo@{ApplyTo}!Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}}
+\doxysubsubsection{\texorpdfstring{ApplyTo()}{ApplyTo()}}
+{\footnotesize\ttfamily void Controls.\+Highlighting\+Controls.\+Effects.\+IMontaviz\+Effect.\+Apply\+To (\begin{DoxyParamCaption}\item[{IEnumerable$<$ \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_wrapped_renderer}{Wrapped\+Renderer}} $>$}]{renderers }\end{DoxyParamCaption})}
+
+
+
+Call to add the effect to the given renderers.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderers} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effects_1_1_flash_effect_a21f8d876064771f0fa54669cdd616f43}{Controls.\+Highlighting\+Controls.\+Effects.\+Flash\+Effect}}, \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effects_1_1_hide_effect_a3c7bb74ef3c442c8ddf159bd5a1994ae}{Controls.\+Highlighting\+Controls.\+Effects.\+Hide\+Effect}}, and \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effects_1_1_highlighting_effect_a782e327e0abd3f71ae2277c64fc76073}{Controls.\+Highlighting\+Controls.\+Effects.\+Highlighting\+Effect}}.
+
+\mbox{\Hypertarget{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_addc7e3d9731b7124f974c4c949a290e4}\label{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_addc7e3d9731b7124f974c4c949a290e4}} 
+\index{Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}!NewEffectInstance@{NewEffectInstance}}
+\index{NewEffectInstance@{NewEffectInstance}!Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}}
+\doxysubsubsection{\texorpdfstring{NewEffectInstance()}{NewEffectInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect}{IMontaviz\+Effect}} Controls.\+Highlighting\+Controls.\+Effects.\+IMontaviz\+Effect.\+New\+Effect\+Instance (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}{Effect\+Type}}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a new Instances of a given effect pipe.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_ae1df9c003271ff73ecf3d11c5bb485e2}\label{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_ae1df9c003271ff73ecf3d11c5bb485e2}} 
+\index{Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}!RemoveFrom@{RemoveFrom}}
+\index{RemoveFrom@{RemoveFrom}!Controls.HighlightingControls.Effects.IMontavizEffect@{Controls.HighlightingControls.Effects.IMontavizEffect}}
+\doxysubsubsection{\texorpdfstring{RemoveFrom()}{RemoveFrom()}}
+{\footnotesize\ttfamily void Controls.\+Highlighting\+Controls.\+Effects.\+IMontaviz\+Effect.\+Remove\+From (\begin{DoxyParamCaption}\item[{IEnumerable$<$ \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_wrapped_renderer}{Wrapped\+Renderer}} $>$}]{renderers }\end{DoxyParamCaption})}
+
+
+
+Call to remove the effect from the given renderers.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderers} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effects_1_1_flash_effect_a8c1a0938af42ac0858526f3e59edb8d8}{Controls.\+Highlighting\+Controls.\+Effects.\+Flash\+Effect}}, \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effects_1_1_hide_effect_abb6668103251ac69d82585dc02bfd031}{Controls.\+Highlighting\+Controls.\+Effects.\+Hide\+Effect}}, and \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effects_1_1_highlighting_effect_a3c9cef42b8f66afc728c8d355cc7a5de}{Controls.\+Highlighting\+Controls.\+Effects.\+Highlighting\+Effect}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Core/\+Views/\+Instruction\+View\+And\+Edit/\+Highlighting\+Controls/\+Effects/IMontaviz\+Effect.\+cs\end{DoxyCompactItemize}
