@@ -1,0 +1,83 @@
+\hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link}{}\doxysection{Controls.\+Highlighting\+Controls.\+Effect\+Manager.\+Effect\+Manager\+Game\+Object\+Link Class Reference}
+\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link}\index{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}}
+
+
+Holds all renderers and effects of a highlighted Game\+Object   
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_abfbfbeb7328606c78a67328e9f838254}\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_abfbfbeb7328606c78a67328e9f838254}} 
+{\bfseries Effect\+Manager\+Game\+Object\+Link} (Game\+Object gO, \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_hierarchical_effect_manager}{Hierarchical\+Effect\+Manager}} effect\+Manager)
+\item 
+void \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a82f6eb8283465b3962ef67ce4c4483f3}{Add\+Renderers\+Of\+Child}} (\mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link}{Effect\+Manager\+Game\+Object\+Link}} child\+Data)
+\begin{DoxyCompactList}\small\item\em Merges all renderers of a child into this object and applies the active effects on it.  \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a31163913cf7b90cda049477877565d1c}{Remove\+Renderers\+Of\+Child}} (\mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link}{Effect\+Manager\+Game\+Object\+Link}} child\+Data)
+\begin{DoxyCompactList}\small\item\em Removes a childs renderers from this object and also clears their effects  \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a094dc338a2b75eaf1268b0b8863f3efa}{Activate\+Effect}} (\mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}{IMontaviz\+Effect.\+Effect\+Type}} type, bool active)
+\begin{DoxyCompactList}\small\item\em Activates an effect on the linked Game\+Object.  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_ad3e20dc7d67c8e3f4e3ab321aaaffa77}\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_ad3e20dc7d67c8e3f4e3ab321aaaffa77}} 
+void {\bfseries Remove\+Effects} ()
+\begin{DoxyCompactList}\small\item\em Removes all effects from the linked Game\+Object  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a3c654eb9277c2bdbfe37e12039133e3e}\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a3c654eb9277c2bdbfe37e12039133e3e}} 
+void {\bfseries Update} ()
+\begin{DoxyCompactList}\small\item\em Called every frame by \mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_highlighting_control}{Highlighting\+Control}}, delegates to all updatable effects  \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Holds all renderers and effects of a highlighted Game\+Object  
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a094dc338a2b75eaf1268b0b8863f3efa}\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a094dc338a2b75eaf1268b0b8863f3efa}} 
+\index{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}!ActivateEffect@{ActivateEffect}}
+\index{ActivateEffect@{ActivateEffect}!Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}}
+\doxysubsubsection{\texorpdfstring{ActivateEffect()}{ActivateEffect()}}
+{\footnotesize\ttfamily void Controls.\+Highlighting\+Controls.\+Effect\+Manager.\+Effect\+Manager\+Game\+Object\+Link.\+Activate\+Effect (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_controls_1_1_highlighting_controls_1_1_effects_1_1_i_montaviz_effect_a4261f228e8c4b0e555bd722513bb09a1}{IMontaviz\+Effect.\+Effect\+Type}}}]{type,  }\item[{bool}]{active }\end{DoxyParamCaption})}
+
+
+
+Activates an effect on the linked Game\+Object.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a82f6eb8283465b3962ef67ce4c4483f3}\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a82f6eb8283465b3962ef67ce4c4483f3}} 
+\index{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}!AddRenderersOfChild@{AddRenderersOfChild}}
+\index{AddRenderersOfChild@{AddRenderersOfChild}!Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}}
+\doxysubsubsection{\texorpdfstring{AddRenderersOfChild()}{AddRenderersOfChild()}}
+{\footnotesize\ttfamily void Controls.\+Highlighting\+Controls.\+Effect\+Manager.\+Effect\+Manager\+Game\+Object\+Link.\+Add\+Renderers\+Of\+Child (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link}{Effect\+Manager\+Game\+Object\+Link}}}]{child\+Data }\end{DoxyParamCaption})}
+
+
+
+Merges all renderers of a child into this object and applies the active effects on it.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em child\+Data} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a31163913cf7b90cda049477877565d1c}\label{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link_a31163913cf7b90cda049477877565d1c}} 
+\index{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}!RemoveRenderersOfChild@{RemoveRenderersOfChild}}
+\index{RemoveRenderersOfChild@{RemoveRenderersOfChild}!Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink@{Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink}}
+\doxysubsubsection{\texorpdfstring{RemoveRenderersOfChild()}{RemoveRenderersOfChild()}}
+{\footnotesize\ttfamily void Controls.\+Highlighting\+Controls.\+Effect\+Manager.\+Effect\+Manager\+Game\+Object\+Link.\+Remove\+Renderers\+Of\+Child (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_controls_1_1_highlighting_controls_1_1_effect_manager_1_1_effect_manager_game_object_link}{Effect\+Manager\+Game\+Object\+Link}}}]{child\+Data }\end{DoxyParamCaption})}
+
+
+
+Removes a childs renderers from this object and also clears their effects  
+
+
+\begin{DoxyParams}{Parameters}
+{\em child\+Data} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Core/\+Views/\+Instruction\+View\+And\+Edit/\+Highlighting\+Controls/\+Effect\+Manager/Effect\+Manager\+Game\+Object\+Link.\+cs\end{DoxyCompactItemize}
