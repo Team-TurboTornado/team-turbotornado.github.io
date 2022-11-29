@@ -6,5 +6,6 @@ var searchData=
   ['mode_3',['Mode',['../classCore_1_1Configuration_1_1Mode.html',1,'Core::Configuration']]],
   ['modefeedback_4',['ModeFeedback',['../classCore_1_1Configuration_1_1ModeFeedback.html',1,'Core::Configuration']]],
   ['modeselectionpopupuiview_5',['ModeSelectionPopUpUIView',['../classModeSelectionPopUpUIView.html',1,'']]],
-  ['montavizsession_6',['MontavizSession',['../classControls_1_1MainControls_1_1MontavizSession.html',1,'Controls::MainControls']]]
+  ['montavizsession_6',['MontavizSession',['../classControls_1_1MainControls_1_1MontavizSession.html',1,'Controls::MainControls']]],
+  ['movingdata_7',['MovingData',['../classMovingData.html',1,'']]]
 ];
