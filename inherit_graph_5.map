@@ -1,6 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,124,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,124,108"/>
 <area shape="rect" id="node2" href="$classAStarAgent.html" title=" " alt="" coords="201,5,290,32"/>
 <area shape="rect" id="node3" href="$classAStarGrid.html" title=" " alt="" coords="206,56,285,83"/>
 <area shape="rect" id="node4" href="$classAnimation_1_1LerpHelper.html" title=" " alt="" coords="172,107,319,133"/>
+<area shape="rect" id="node5" href="$classAnimationManager.html" title=" " alt="" coords="180,157,311,184"/>
 </map>
