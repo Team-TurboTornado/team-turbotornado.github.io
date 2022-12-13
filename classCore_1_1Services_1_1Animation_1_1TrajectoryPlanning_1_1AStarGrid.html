@@ -96,15 +96,12 @@ Collaboration diagram for Core.Services.Animation.TrajectoryPlanning.AStarGrid:<
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5cc98803a16e5661ad36b3a9ff4a44e1"><td class="memItemLeft" align="right" valign="top"><a id="a5cc98803a16e5661ad36b3a9ff4a44e1" name="a5cc98803a16e5661ad36b3a9ff4a44e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InitGrid</b> (Vector3 startPosition, Vector3 targetPosition, int nodeCount)</td></tr>
-<tr class="separator:a5cc98803a16e5661ad36b3a9ff4a44e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c11840f61a97da2752c8a1eefa9729c"><td class="memItemLeft" align="right" valign="top"><a id="a5c11840f61a97da2752c8a1eefa9729c" name="a5c11840f61a97da2752c8a1eefa9729c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoStart</b> ()</td></tr>
+<tr class="separator:a5c11840f61a97da2752c8a1eefa9729c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8331a52255fadc6b0b889404fbd87b6e"><td class="memItemLeft" align="right" valign="top"><a id="a8331a52255fadc6b0b889404fbd87b6e" name="a8331a52255fadc6b0b889404fbd87b6e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoDrawGizmos</b> ()</td></tr>
 <tr class="separator:a8331a52255fadc6b0b889404fbd87b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7234273bc6289ac3a96de0c63f18edf5"><td class="memItemLeft" align="right" valign="top"><a id="a7234273bc6289ac3a96de0c63f18edf5" name="a7234273bc6289ac3a96de0c63f18edf5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DetermineGrid</b> (float forbiddenRadius)</td></tr>
-<tr class="separator:a7234273bc6289ac3a96de0c63f18edf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eb8779bd90817b783f9bdc10d7796b0"><td class="memItemLeft" align="right" valign="top"><a id="a3eb8779bd90817b783f9bdc10d7796b0" name="a3eb8779bd90817b783f9bdc10d7796b0"></a>
 <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetClosestPointWorldSpace</b> (Vector3 position)</td></tr>
 <tr class="separator:a3eb8779bd90817b783f9bdc10d7796b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +117,18 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>nodeDistance</b></td
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a98db333eea2ada0df5842ea2be9a735b"><td class="memItemLeft" align="right" valign="top"><a id="a98db333eea2ada0df5842ea2be9a735b" name="a98db333eea2ada0df5842ea2be9a735b"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>StartPosition</b><code> [get, set]</code></td></tr>
+<tr class="separator:a98db333eea2ada0df5842ea2be9a735b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a30930f77f4390eaa2d279942c0921"><td class="memItemLeft" align="right" valign="top"><a id="ae0a30930f77f4390eaa2d279942c0921" name="ae0a30930f77f4390eaa2d279942c0921"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>TargetPosition</b><code> [get, set]</code></td></tr>
+<tr class="separator:ae0a30930f77f4390eaa2d279942c0921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e9e3cf279c3a67646c91b915339b86"><td class="memItemLeft" align="right" valign="top"><a id="ac1e9e3cf279c3a67646c91b915339b86" name="ac1e9e3cf279c3a67646c91b915339b86"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NodeCount</b><code> [get, set]</code></td></tr>
+<tr class="separator:ac1e9e3cf279c3a67646c91b915339b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173d00871667cd2a45bd655135aaf7ca"><td class="memItemLeft" align="right" valign="top"><a id="a173d00871667cd2a45bd655135aaf7ca" name="a173d00871667cd2a45bd655135aaf7ca"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>ForbiddenRadius</b><code> [get, set]</code></td></tr>
+<tr class="separator:a173d00871667cd2a45bd655135aaf7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67f4fabeac442f68c81890efa1b9f3f8"><td class="memItemLeft" align="right" valign="top"><a id="a67f4fabeac442f68c81890efa1b9f3f8" name="a67f4fabeac442f68c81890efa1b9f3f8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShowCollisionVisualizers</b><code> [get, set]</code></td></tr>
 <tr class="separator:a67f4fabeac442f68c81890efa1b9f3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
