@@ -1,8 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,143,124,170"/>
-<area shape="rect" id="node2" href="$classAssets_1_1Core_1_1Services_1_1Animation_1_1AnimationUIControl.html" title=" " alt="" coords="172,5,383,47"/>
-<area shape="rect" id="node3" href="$classCore_1_1Services_1_1Animation_1_1AnimationManager.html" title=" " alt="" coords="194,71,361,112"/>
-<area shape="rect" id="node4" href="$classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html" title=" " alt="" coords="194,136,361,177"/>
-<area shape="rect" id="node5" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html" title=" " alt="" coords="178,201,377,243"/>
-<area shape="rect" id="node6" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html" title=" " alt="" coords="183,267,372,308"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,117,69"/>
+<area shape="rect" id="node2" href="$classCore_1_1Services_1_1Animation_1_1Debug_1_1DebugAnimationBehaviour.html" title=" " alt="" coords="165,5,380,47"/>
+<area shape="rect" id="node3" href="$classanimate.html" title=" " alt="" coords="239,71,307,98"/>
 </map>

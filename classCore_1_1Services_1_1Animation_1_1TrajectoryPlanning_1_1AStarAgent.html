@@ -69,6 +69,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Core.Services.Animation.TrajectoryPlanning.AStarAgent Class Reference</div></div>
@@ -107,12 +108,27 @@ List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetP
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a87468f1cb8a8a224d70f045997dd8cc3"><td class="memItemLeft" align="right" valign="top"><a id="a87468f1cb8a8a224d70f045997dd8cc3" name="a87468f1cb8a8a224d70f045997dd8cc3"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateSphereVisualizer</b> (Vector3 position, float size, Color color)</td></tr>
-<tr class="separator:a87468f1cb8a8a224d70f045997dd8cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb74f598139b3a93bf8cfa91b87f715"><td class="memItemLeft" align="right" valign="top"><a id="a0fb74f598139b3a93bf8cfa91b87f715" name="a0fb74f598139b3a93bf8cfa91b87f715"></a>
+static GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateSphereVisualizer</b> (Vector3 position, float size, Color color)</td></tr>
+<tr class="separator:a0fb74f598139b3a93bf8cfa91b87f715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fb3d4fbc680e7ab6ce69be8f65d34c3"><td class="memItemLeft" align="right" valign="top"><a id="a9fb3d4fbc680e7ab6ce69be8f65d34c3" name="a9fb3d4fbc680e7ab6ce69be8f65d34c3"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>DestroyDots</b> ()</td></tr>
 <tr class="separator:a9fb3d4fbc680e7ab6ce69be8f65d34c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e03ab3c12040d27214bc76289df6702"><td class="memItemLeft" align="right" valign="top"><a id="a1e03ab3c12040d27214bc76289df6702" name="a1e03ab3c12040d27214bc76289df6702"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateCollisionVisualizers</b> (bool enable)</td></tr>
+<tr class="separator:a1e03ab3c12040d27214bc76289df6702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9ef08beab26c1cb65cb1f170fcdbd9"><td class="memItemLeft" align="right" valign="top"><a id="aaf9ef08beab26c1cb65cb1f170fcdbd9" name="aaf9ef08beab26c1cb65cb1f170fcdbd9"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatePathVisualizers</b> (bool enable)</td></tr>
+<tr class="separator:aaf9ef08beab26c1cb65cb1f170fcdbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a72d6d8c02fc9605fde7d2ba4fec6d3e9"><td class="memItemLeft" align="right" valign="top"><a id="a72d6d8c02fc9605fde7d2ba4fec6d3e9" name="a72d6d8c02fc9605fde7d2ba4fec6d3e9"></a>
+static readonly List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PathVisualizer</b> = new()</td></tr>
+<tr class="separator:a72d6d8c02fc9605fde7d2ba4fec6d3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d5992b158a8b94e308882afc10e0985"><td class="memItemLeft" align="right" valign="top"><a id="a1d5992b158a8b94e308882afc10e0985" name="a1d5992b158a8b94e308882afc10e0985"></a>
+static readonly List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>CollisionVisualizer</b> = new()</td></tr>
+<tr class="separator:a1d5992b158a8b94e308882afc10e0985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -131,15 +147,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>GridNodeCount</b><code
 <tr class="memitem:a65b7c3bb8cc6ef2c8747d8c582c69674"><td class="memItemLeft" align="right" valign="top"><a id="a65b7c3bb8cc6ef2c8747d8c582c69674" name="a65b7c3bb8cc6ef2c8747d8c582c69674"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>DepthInComponent</b><code> [get, set]</code></td></tr>
 <tr class="separator:a65b7c3bb8cc6ef2c8747d8c582c69674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4fa2293186b0ee5ae7f2ceb181822e6"><td class="memItemLeft" align="right" valign="top"><a id="aa4fa2293186b0ee5ae7f2ceb181822e6" name="aa4fa2293186b0ee5ae7f2ceb181822e6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShowPathVisualizer</b><code> [get, set]</code></td></tr>
-<tr class="separator:aa4fa2293186b0ee5ae7f2ceb181822e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa89f9876b8df5365953196a79d5a79e7"><td class="memItemLeft" align="right" valign="top"><a id="aa89f9876b8df5365953196a79d5a79e7" name="aa89f9876b8df5365953196a79d5a79e7"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>DebugVisualizerSize</b><code> [get, set]</code></td></tr>
 <tr class="separator:aa89f9876b8df5365953196a79d5a79e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af075977097035da07e9a54d6a1e9359f"><td class="memItemLeft" align="right" valign="top"><a id="af075977097035da07e9a54d6a1e9359f" name="af075977097035da07e9a54d6a1e9359f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShowCollisionVisualizers</b><code> [get, set]</code></td></tr>
-<tr class="separator:af075977097035da07e9a54d6a1e9359f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac50fabf010ae98beb64f563741e1296f"><td class="memItemLeft" align="right" valign="top"><a id="ac50fabf010ae98beb64f563741e1296f" name="ac50fabf010ae98beb64f563741e1296f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ShowDebugGrid</b><code> [get, set]</code></td></tr>
 <tr class="separator:ac50fabf010ae98beb64f563741e1296f"><td class="memSeparator" colspan="2">&#160;</td></tr>
