@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['geteffectinstance_0',['GetEffectInstance',['../classControls_1_1HighlightingControls_1_1EffectManager_1_1HierarchicalEffectManager.html#a437aeb1b51bdf3040ff66115a5898d13',1,'Controls::HighlightingControls::EffectManager::HierarchicalEffectManager']]],
-  ['getinstance_1',['GetInstance',['../classCore_1_1Configuration_1_1ConfigurationManager.html#aa9f12f465d30430eaee20b39b14aacca',1,'Core::Configuration::ConfigurationManager']]],
-  ['getrendererwrappersset_2',['GetRendererWrappersSet',['../classControls_1_1HighlightingControls_1_1EffectManager_1_1HierarchicalEffectManager.html#a5c001f4471ce4493d49ba1fffdd3b7cf',1,'Controls::HighlightingControls::EffectManager::HierarchicalEffectManager']]]
+  ['setcollisionvisualizer_0',['SetCollisionVisualizer',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#ae5e818658df77c69acdb2ac54689b33c',1,'Core::Services::Animation::AnimationManager']]],
+  ['setcollisionvisualizers_1',['SetCollisionVisualizers',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#abc5b2841a36a630f50006b79ae7df393',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
+  ['setpathvisualizer_2',['SetPathVisualizer',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a06201753e7ab9260f601edb599b45ba5',1,'Core::Services::Animation::AnimationManager']]],
+  ['setpathvisualizers_3',['SetPathVisualizers',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#abb92352d736a3b2d5ba3927e111f1134',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]]
 ];
