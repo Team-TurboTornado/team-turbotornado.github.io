@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['mainuihoverdetection_0',['MainUIHoverDetection',['../classMainUIView_1_1MainUIHoverDetection.html',1,'MainUIView']]],
-  ['mainuiview_1',['MainUIView',['../classMainUIView.html',1,'']]],
-  ['medium_2',['Medium',['../classCore_1_1Models_1_1Medium.html',1,'Core::Models']]],
-  ['mode_3',['Mode',['../classCore_1_1Configuration_1_1Mode.html',1,'Core::Configuration']]],
-  ['modefeedback_4',['ModeFeedback',['../classCore_1_1Configuration_1_1ModeFeedback.html',1,'Core::Configuration']]],
-  ['modeselectionpopupuiview_5',['ModeSelectionPopUpUIView',['../classModeSelectionPopUpUIView.html',1,'']]],
-  ['montavizsession_6',['MontavizSession',['../classControls_1_1MainControls_1_1MontavizSession.html',1,'Controls::MainControls']]],
-  ['movingdata_7',['MovingData',['../classMovingData.html',1,'']]]
+  ['setcollisionvisualizer_0',['SetCollisionVisualizer',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#ae5e818658df77c69acdb2ac54689b33c',1,'Core::Services::Animation::AnimationManager']]],
+  ['setcollisionvisualizers_1',['SetCollisionVisualizers',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#abc5b2841a36a630f50006b79ae7df393',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
+  ['setpathvisualizer_2',['SetPathVisualizer',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a06201753e7ab9260f601edb599b45ba5',1,'Core::Services::Animation::AnimationManager']]],
+  ['setpathvisualizers_3',['SetPathVisualizers',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#abb92352d736a3b2d5ba3927e111f1134',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
+  ['startanimation_4',['StartAnimation',['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#ad71f50f79cd2a1fa7f10eb7b4ad91923',1,'Core::Services::Animation::AnimationUIControl']]],
+  ['startmanipulating_5',['StartManipulating',['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#ab9203e01b7a78d80e299c9a7901c7ed8',1,'Core::Services::Animation::AnimationUIControl']]]
 ];

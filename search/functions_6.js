@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadgeometryfromassetbundle_0',['LoadGeometryFromAssetBundle',['../classAssets_1_1Core_1_1Services_1_1Geometry_1_1GeometryService.html#a52f33b1676d5b7059bf00e97abb95db5',1,'Assets::Core::Services::Geometry::GeometryService']]]
+  ['nodedata_0',['NodeData',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html#a63d145103e99b1205a1a4741161f1ef2',1,'Core::Services::Animation::TrajectoryPlanning::NodeData']]]
 ];
