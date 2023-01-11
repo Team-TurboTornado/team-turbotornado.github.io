@@ -69,6 +69,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Core.Services.Animation.Lerp.LerpHelper Class Reference</div></div>
 </div><!--header-->
@@ -109,12 +111,81 @@ Public Member Functions</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:ab44b8178b1ee1b56062421469b9984b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#ab44b8178b1ee1b56062421469b9984b9">ShouldLerp</a><code> [get, set]</code></td></tr>
 <tr class="separator:ab44b8178b1ee1b56062421469b9984b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64ef672d3900259c0f42755f8c2f21b5"><td class="memItemLeft" align="right" valign="top">Vector3[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a64ef672d3900259c0f42755f8c2f21b5">PositionArray</a><code> [get]</code></td></tr>
+<tr class="memitem:a64ef672d3900259c0f42755f8c2f21b5"><td class="memItemLeft" align="right" valign="top">Vector3[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a64ef672d3900259c0f42755f8c2f21b5">PositionArray</a><code> [get, private set]</code></td></tr>
 <tr class="separator:a64ef672d3900259c0f42755f8c2f21b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75158a86bf34f784e0af336db119c18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#af75158a86bf34f784e0af336db119c18">Count</a><code> [get]</code></td></tr>
+<tr class="memitem:af75158a86bf34f784e0af336db119c18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#af75158a86bf34f784e0af336db119c18">Count</a><code> [get, private set]</code></td></tr>
 <tr class="separator:af75158a86bf34f784e0af336db119c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aae348b037c42f0e55fc703c25545715c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#aae348b037c42f0e55fc703c25545715c">StartLerping</a> ()</td></tr>
+<tr class="separator:aae348b037c42f0e55fc703c25545715c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10e1523c6b1e648bb2e4ba221d40cfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#af10e1523c6b1e648bb2e4ba221d40cfb">StopLerping</a> ()</td></tr>
+<tr class="separator:af10e1523c6b1e648bb2e4ba221d40cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a65e0ffdc9f2bbbaa728fbf5c889abf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a3a65e0ffdc9f2bbbaa728fbf5c889abf">ChangePos</a> (Vector3 pos, bool autostart)</td></tr>
+<tr class="separator:a3a65e0ffdc9f2bbbaa728fbf5c889abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3787c818ba17618f9bcbd0def8726d57"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a3787c818ba17618f9bcbd0def8726d57">Lerp</a> (Vector3 start, Vector3 end)</td></tr>
+<tr class="separator:a3787c818ba17618f9bcbd0def8726d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5ef08e33d7117e3051884d9e6d0d93be"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a5ef08e33d7117e3051884d9e6d0d93be">_component</a></td></tr>
+<tr class="separator:a5ef08e33d7117e3051884d9e6d0d93be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4289e1d351ac432e520140a719aef7be"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a4289e1d351ac432e520140a719aef7be">_posCurr</a></td></tr>
+<tr class="separator:a4289e1d351ac432e520140a719aef7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8921bc363c908d4683e1eb518f45666a"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a8921bc363c908d4683e1eb518f45666a">_posNew</a></td></tr>
+<tr class="separator:a8921bc363c908d4683e1eb518f45666a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ed1f090568289d80e5275c30d7abc46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a4ed1f090568289d80e5275c30d7abc46">_positionCount</a></td></tr>
+<tr class="separator:a4ed1f090568289d80e5275c30d7abc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265c8c245c05c177d992fc659fb75232"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#a265c8c245c05c177d992fc659fb75232">_percentageComplete</a></td></tr>
+<tr class="separator:a265c8c245c05c177d992fc659fb75232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05a30cbca4bc60996c86347b40efad8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#ab05a30cbca4bc60996c86347b40efad8">_distance</a></td></tr>
+<tr class="separator:ab05a30cbca4bc60996c86347b40efad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4aab3d407e327098a3eb5471df816ec"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#ac4aab3d407e327098a3eb5471df816ec">_elapsedTime</a></td></tr>
+<tr class="separator:ac4aab3d407e327098a3eb5471df816ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fba35184ddda2136a148535113db0f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#af0fba35184ddda2136a148535113db0f">_lerpTime</a></td></tr>
+<tr class="separator:af0fba35184ddda2136a148535113db0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01adf6f1789884e1281395f2e5c2edf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#ab01adf6f1789884e1281395f2e5c2edf">_customTime</a></td></tr>
+<tr class="separator:ab01adf6f1789884e1281395f2e5c2edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3a65e0ffdc9f2bbbaa728fbf5c889abf" name="a3a65e0ffdc9f2bbbaa728fbf5c889abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a65e0ffdc9f2bbbaa728fbf5c889abf">&#9670;&nbsp;</a></span>ChangePos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core.Services.Animation.Lerp.LerpHelper.ChangePos </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>autostart</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >set the positions for the next <a class="el" href="namespaceCore_1_1Services_1_1Animation_1_1Lerp.html">Lerp</a> step and calculates its time </p>
+
+</div>
+</div>
 <a id="adba0d855066bf61c0448d79576edeae8" name="adba0d855066bf61c0448d79576edeae8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adba0d855066bf61c0448d79576edeae8">&#9670;&nbsp;</a></span>ChangeSpeed()</h2>
 
@@ -224,6 +295,294 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a3787c818ba17618f9bcbd0def8726d57" name="a3787c818ba17618f9bcbd0def8726d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3787c818ba17618f9bcbd0def8726d57">&#9670;&nbsp;</a></span>Lerp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.Lerp.LerpHelper.Lerp </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >returns the new position of the component </p>
+
+</div>
+</div>
+<a id="aae348b037c42f0e55fc703c25545715c" name="aae348b037c42f0e55fc703c25545715c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae348b037c42f0e55fc703c25545715c">&#9670;&nbsp;</a></span>StartLerping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core.Services.Animation.Lerp.LerpHelper.StartLerping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >enables the DoUpdate functionality </p>
+
+</div>
+</div>
+<a id="af10e1523c6b1e648bb2e4ba221d40cfb" name="af10e1523c6b1e648bb2e4ba221d40cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10e1523c6b1e648bb2e4ba221d40cfb">&#9670;&nbsp;</a></span>StopLerping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Core.Services.Animation.Lerp.LerpHelper.StopLerping </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >disables the DoUpdate functionality </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5ef08e33d7117e3051884d9e6d0d93be" name="a5ef08e33d7117e3051884d9e6d0d93be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef08e33d7117e3051884d9e6d0d93be">&#9670;&nbsp;</a></span>_component</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Core.Services.Animation.Lerp.LerpHelper._component</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab01adf6f1789884e1281395f2e5c2edf" name="ab01adf6f1789884e1281395f2e5c2edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01adf6f1789884e1281395f2e5c2edf">&#9670;&nbsp;</a></span>_customTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Core.Services.Animation.Lerp.LerpHelper._customTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab05a30cbca4bc60996c86347b40efad8" name="ab05a30cbca4bc60996c86347b40efad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05a30cbca4bc60996c86347b40efad8">&#9670;&nbsp;</a></span>_distance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Core.Services.Animation.Lerp.LerpHelper._distance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4aab3d407e327098a3eb5471df816ec" name="ac4aab3d407e327098a3eb5471df816ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4aab3d407e327098a3eb5471df816ec">&#9670;&nbsp;</a></span>_elapsedTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Core.Services.Animation.Lerp.LerpHelper._elapsedTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0fba35184ddda2136a148535113db0f" name="af0fba35184ddda2136a148535113db0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0fba35184ddda2136a148535113db0f">&#9670;&nbsp;</a></span>_lerpTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Core.Services.Animation.Lerp.LerpHelper._lerpTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a265c8c245c05c177d992fc659fb75232" name="a265c8c245c05c177d992fc659fb75232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a265c8c245c05c177d992fc659fb75232">&#9670;&nbsp;</a></span>_percentageComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Core.Services.Animation.Lerp.LerpHelper._percentageComplete</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4289e1d351ac432e520140a719aef7be" name="a4289e1d351ac432e520140a719aef7be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4289e1d351ac432e520140a719aef7be">&#9670;&nbsp;</a></span>_posCurr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.Lerp.LerpHelper._posCurr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ed1f090568289d80e5275c30d7abc46" name="a4ed1f090568289d80e5275c30d7abc46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ed1f090568289d80e5275c30d7abc46">&#9670;&nbsp;</a></span>_positionCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core.Services.Animation.Lerp.LerpHelper._positionCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8921bc363c908d4683e1eb518f45666a" name="a8921bc363c908d4683e1eb518f45666a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8921bc363c908d4683e1eb518f45666a">&#9670;&nbsp;</a></span>_posNew</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.Lerp.LerpHelper._posNew</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="af75158a86bf34f784e0af336db119c18" name="af75158a86bf34f784e0af336db119c18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af75158a86bf34f784e0af336db119c18">&#9670;&nbsp;</a></span>Count</h2>
@@ -240,7 +599,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -262,7 +621,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

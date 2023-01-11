@@ -69,6 +69,8 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Core.Services.Animation.AnimationUIControl Class Reference</div></div>
 </div><!--header-->
@@ -87,9 +89,13 @@ Collaboration diagram for Core.Services.Animation.AnimationUIControl:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCore_1_1Services_1_1Animation_1_1AnimationUIControl__coll__graph.png" border="0" usemap="#aCore_8Services_8Animation_8AnimationUIControl_coll__map" alt="Collaboration graph"/></div>
 <map name="aCore_8Services_8Animation_8AnimationUIControl_coll__map" id="aCore_8Services_8Animation_8AnimationUIControl_coll__map">
-<area shape="rect" title=" " alt="" coords="5,185,172,227"/>
-<area shape="rect" title=" " alt="" coords="24,5,143,32"/>
-<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html" title=" " alt="" coords="105,81,272,123"/>
+<area shape="rect" title=" " alt="" coords="1319,14,1485,55"/>
+<area shape="rect" title=" " alt="" coords="39,93,158,120"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html" title=" " alt="" coords="995,86,1161,127"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html" title=" " alt="" coords="672,143,871,185"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html" title=" " alt="" coords="268,183,457,225"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html" title=" " alt="" coords="481,37,648,78"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html" title=" " alt="" coords="5,298,192,339"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,6 +122,28 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a74893a9e36c398bd99ffe5a57be5d9ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html">AnimationManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a74893a9e36c398bd99ffe5a57be5d9ef">animationManager</a></td></tr>
 <tr class="separator:a74893a9e36c398bd99ffe5a57be5d9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1d9c1a227283bc40d62ed5e7915957fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a1d9c1a227283bc40d62ed5e7915957fa">CalculateAnimationStatus</a> ()</td></tr>
+<tr class="separator:a1d9c1a227283bc40d62ed5e7915957fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:acf8845697aebfd44ffa069d92c147050"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#acf8845697aebfd44ffa069d92c147050">_animationStarted</a></td></tr>
+<tr class="separator:acf8845697aebfd44ffa069d92c147050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba698a63ba3abe3bea8d0e17a8b49464"><td class="memItemLeft" align="right" valign="top">readonly MainUIView&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#aba698a63ba3abe3bea8d0e17a8b49464">_mainView</a></td></tr>
+<tr class="separator:aba698a63ba3abe3bea8d0e17a8b49464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3687ad56bc229f0fd967e6168218808"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#af3687ad56bc229f0fd967e6168218808">_animationSpeed</a> = 5</td></tr>
+<tr class="separator:af3687ad56bc229f0fd967e6168218808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a961500dd001920877b0680500b31f2cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a961500dd001920877b0680500b31f2cc">_isPlaying</a></td></tr>
+<tr class="separator:a961500dd001920877b0680500b31f2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae45205ce3e68b6e8958e833a27bead4c"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#ae45205ce3e68b6e8958e833a27bead4c">_initialPosition</a></td></tr>
+<tr class="separator:ae45205ce3e68b6e8958e833a27bead4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9ff43e4f4ede607de4f1d61626e060"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a7b9ff43e4f4ede607de4f1d61626e060">_gameObject</a></td></tr>
+<tr class="separator:a7b9ff43e4f4ede607de4f1d61626e060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa24554cfafbe8d6fc0eccc192bc7ecbd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#aa24554cfafbe8d6fc0eccc192bc7ecbd">_sliderIsManipulated</a></td></tr>
+<tr class="separator:aa24554cfafbe8d6fc0eccc192bc7ecbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html">AnimationUIControl</a> class is a UI abstraction layer between the MainUIView and the animation logic </p>
@@ -139,6 +167,32 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1d9c1a227283bc40d62ed5e7915957fa" name="a1d9c1a227283bc40d62ed5e7915957fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d9c1a227283bc40d62ed5e7915957fa">&#9670;&nbsp;</a></span>CalculateAnimationStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Core.Services.Animation.AnimationUIControl.CalculateAnimationStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Convert slider value to node index value </p>
+
+</div>
+</div>
 <a id="a9fd161b88e4357dc91ae3b4ae80387bc" name="a9fd161b88e4357dc91ae3b4ae80387bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fd161b88e4357dc91ae3b4ae80387bc">&#9670;&nbsp;</a></span>DecreaseSpeed()</h2>
 
@@ -266,6 +320,160 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af3687ad56bc229f0fd967e6168218808" name="af3687ad56bc229f0fd967e6168218808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3687ad56bc229f0fd967e6168218808">&#9670;&nbsp;</a></span>_animationSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core.Services.Animation.AnimationUIControl._animationSpeed = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf8845697aebfd44ffa069d92c147050" name="acf8845697aebfd44ffa069d92c147050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf8845697aebfd44ffa069d92c147050">&#9670;&nbsp;</a></span>_animationStarted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core.Services.Animation.AnimationUIControl._animationStarted</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b9ff43e4f4ede607de4f1d61626e060" name="a7b9ff43e4f4ede607de4f1d61626e060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9ff43e4f4ede607de4f1d61626e060">&#9670;&nbsp;</a></span>_gameObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Core.Services.Animation.AnimationUIControl._gameObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae45205ce3e68b6e8958e833a27bead4c" name="ae45205ce3e68b6e8958e833a27bead4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae45205ce3e68b6e8958e833a27bead4c">&#9670;&nbsp;</a></span>_initialPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.AnimationUIControl._initialPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a961500dd001920877b0680500b31f2cc" name="a961500dd001920877b0680500b31f2cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a961500dd001920877b0680500b31f2cc">&#9670;&nbsp;</a></span>_isPlaying</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core.Services.Animation.AnimationUIControl._isPlaying</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba698a63ba3abe3bea8d0e17a8b49464" name="aba698a63ba3abe3bea8d0e17a8b49464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba698a63ba3abe3bea8d0e17a8b49464">&#9670;&nbsp;</a></span>_mainView</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly MainUIView Core.Services.Animation.AnimationUIControl._mainView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa24554cfafbe8d6fc0eccc192bc7ecbd" name="aa24554cfafbe8d6fc0eccc192bc7ecbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa24554cfafbe8d6fc0eccc192bc7ecbd">&#9670;&nbsp;</a></span>_sliderIsManipulated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core.Services.Animation.AnimationUIControl._sliderIsManipulated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a74893a9e36c398bd99ffe5a57be5d9ef" name="a74893a9e36c398bd99ffe5a57be5d9ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74893a9e36c398bd99ffe5a57be5d9ef">&#9670;&nbsp;</a></span>animationManager</h2>
 

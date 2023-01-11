@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['update_0',['Update',['../classControls_1_1HighlightingControls_1_1EffectManager_1_1EffectManagerGameObjectLink.html#a3c654eb9277c2bdbfe37e12039133e3e',1,'Controls.HighlightingControls.EffectManager.EffectManagerGameObjectLink.Update()'],['../classControls_1_1HighlightingControls_1_1Effects_1_1FlashEffect.html#aa8392ee0ea9f492f540a26fa06fda0f6',1,'Controls.HighlightingControls.Effects.FlashEffect.Update()'],['../classControls_1_1HighlightingControls_1_1Effects_1_1HighlightingEffect.html#a524af365930ad04771670f8ffe000f90',1,'Controls.HighlightingControls.Effects.HighlightingEffect.Update()'],['../interfaceControls_1_1HighlightingControls_1_1Effects_1_1IMontavizUpdatableEffect.html#aecbd1bac1795d7652cca4db0309dcfe2',1,'Controls.HighlightingControls.Effects.IMontavizUpdatableEffect.Update()']]],
-  ['updateeffects_1',['UpdateEffects',['../classControls_1_1HighlightingControls_1_1HighlightingEffectLink.html#abde1302c64280f2e3970cf9621736580',1,'Controls::HighlightingControls::HighlightingEffectLink']]],
-  ['updatelistview_2',['UpdateListView',['../classControls_1_1ListViewControls_1_1ListViewControl.html#a52d1ded0669ed51697c994c513ed4905',1,'Controls::ListViewControls::ListViewControl']]]
+  ['reconstructpath_0',['ReconstructPath',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ad74b23fcf61160a18e5820d22de22615',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
+  ['resetanimationplayer_1',['ResetAnimationPlayer',['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#ae581d8b7c3c9777b782018b6481652d0',1,'Core::Services::Animation::AnimationUIControl']]]
 ];

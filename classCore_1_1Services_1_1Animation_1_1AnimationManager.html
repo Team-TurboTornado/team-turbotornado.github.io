@@ -71,6 +71,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCore_1_1Services_1_1Animation_1_1AnimationManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Core.Services.Animation.AnimationManager Class Reference</div></div>
 </div><!--header-->
@@ -89,8 +90,12 @@ Collaboration diagram for Core.Services.Animation.AnimationManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCore_1_1Services_1_1Animation_1_1AnimationManager__coll__graph.png" border="0" usemap="#aCore_8Services_8Animation_8AnimationManager_coll__map" alt="Collaboration graph"/></div>
 <map name="aCore_8Services_8Animation_8AnimationManager_coll__map" id="aCore_8Services_8Animation_8AnimationManager_coll__map">
-<area shape="rect" title=" " alt="" coords="5,80,172,121"/>
-<area shape="rect" title=" " alt="" coords="29,5,148,32"/>
+<area shape="rect" title=" " alt="" coords="995,64,1161,105"/>
+<area shape="rect" title=" " alt="" coords="39,97,158,123"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html" title=" " alt="" coords="672,167,871,208"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html" title=" " alt="" coords="268,212,457,253"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html" title=" " alt="" coords="481,5,648,47"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html" title=" " alt="" coords="5,256,192,297"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -141,6 +146,19 @@ Properties</h2></td></tr>
 <tr class="separator:aa76b3836d9fba0b222eb7967b86b1e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517e70705d09b092666cf1d45acb4d1c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a517e70705d09b092666cf1d45acb4d1c">StartFromGameObject</a><code> [get, set]</code></td></tr>
 <tr class="separator:a517e70705d09b092666cf1d45acb4d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1e2da6c49916f5a5059437774842f6d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html">AStarAgent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a1e2da6c49916f5a5059437774842f6d8">_aStarAgent</a></td></tr>
+<tr class="separator:a1e2da6c49916f5a5059437774842f6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b43b3c38106f1374455fd3bbacec3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html">LerpHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a81b43b3c38106f1374455fd3bbacec3e">_lerpHelper</a></td></tr>
+<tr class="separator:a81b43b3c38106f1374455fd3bbacec3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d52645d52c0c2c56bfc0bbc9fc79c2f"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a1d52645d52c0c2c56bfc0bbc9fc79c2f">_startPosition</a></td></tr>
+<tr class="separator:a1d52645d52c0c2c56bfc0bbc9fc79c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a38647acdb11aadf1fbed1a4bd7abd"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a16a38647acdb11aadf1fbed1a4bd7abd">_targetPosition</a></td></tr>
+<tr class="separator:a16a38647acdb11aadf1fbed1a4bd7abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ff3579c600ad06aacf71ab1254824e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#aa9ff3579c600ad06aacf71ab1254824e">_nodesLength</a></td></tr>
+<tr class="separator:aa9ff3579c600ad06aacf71ab1254824e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >takes care of all the animation. Trajectory planning and animation </p>
@@ -354,6 +372,116 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1e2da6c49916f5a5059437774842f6d8" name="a1e2da6c49916f5a5059437774842f6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2da6c49916f5a5059437774842f6d8">&#9670;&nbsp;</a></span>_aStarAgent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html">AStarAgent</a> Core.Services.Animation.AnimationManager._aStarAgent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81b43b3c38106f1374455fd3bbacec3e" name="a81b43b3c38106f1374455fd3bbacec3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b43b3c38106f1374455fd3bbacec3e">&#9670;&nbsp;</a></span>_lerpHelper</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html">LerpHelper</a> Core.Services.Animation.AnimationManager._lerpHelper</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9ff3579c600ad06aacf71ab1254824e" name="aa9ff3579c600ad06aacf71ab1254824e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9ff3579c600ad06aacf71ab1254824e">&#9670;&nbsp;</a></span>_nodesLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Core.Services.Animation.AnimationManager._nodesLength</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d52645d52c0c2c56bfc0bbc9fc79c2f" name="a1d52645d52c0c2c56bfc0bbc9fc79c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d52645d52c0c2c56bfc0bbc9fc79c2f">&#9670;&nbsp;</a></span>_startPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.AnimationManager._startPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16a38647acdb11aadf1fbed1a4bd7abd" name="a16a38647acdb11aadf1fbed1a4bd7abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16a38647acdb11aadf1fbed1a4bd7abd">&#9670;&nbsp;</a></span>_targetPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.AnimationManager._targetPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a255c65ed33642e2e4d8987d67243de7d" name="a255c65ed33642e2e4d8987d67243de7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a255c65ed33642e2e4d8987d67243de7d">&#9670;&nbsp;</a></span>debugVisualizerSize</h2>
 

@@ -1,15 +1,18 @@
 var searchData=
 [
-  ['animation_0',['Animation',['../namespaceCore_1_1Services_1_1Animation.html',1,'Core::Services']]],
-  ['camefrom_1',['CameFrom',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html#aa1684e084fd72afc2cccdd9bb0e58ff9',1,'Core::Services::Animation::TrajectoryPlanning::NodeData']]],
-  ['changespeed_2',['ChangeSpeed',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#acc537ffd4c3a9bcec43763486e5fabda',1,'Core.Services.Animation.AnimationManager.ChangeSpeed()'],['../classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#adba0d855066bf61c0448d79576edeae8',1,'Core.Services.Animation.Lerp.LerpHelper.ChangeSpeed()']]],
-  ['changetoindex_3',['ChangeToIndex',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#adce3870d886041d22a645a03ad1cda8d',1,'Core.Services.Animation.AnimationManager.ChangeToIndex()'],['../classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#adf9c0629d0c442be5e1d5f80757c39ef',1,'Core.Services.Animation.Lerp.LerpHelper.ChangeToIndex()']]],
-  ['collisionvisualizer_4',['CollisionVisualizer',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a1d5992b158a8b94e308882afc10e0985',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
-  ['coords_5',['Coords',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html#adfdaeaf795ff5d597857ff0a636530c3',1,'Core.Services.Animation.TrajectoryPlanning.GridNode.Coords()'],['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html#af7380bdcc8507e765b3c9b99a9bdeaa9',1,'Core.Services.Animation.TrajectoryPlanning.NodeData.Coords()']]],
-  ['core_6',['Core',['../namespaceCore.html',1,'']]],
-  ['count_7',['Count',['../classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#af75158a86bf34f784e0af336db119c18',1,'Core::Services::Animation::Lerp::LerpHelper']]],
-  ['debug_8',['Debug',['../namespaceCore_1_1Services_1_1Animation_1_1Debug.html',1,'Core::Services::Animation']]],
-  ['lerp_9',['Lerp',['../namespaceCore_1_1Services_1_1Animation_1_1Lerp.html',1,'Core::Services::Animation']]],
-  ['services_10',['Services',['../namespaceCore_1_1Services.html',1,'Core']]],
-  ['trajectoryplanning_11',['TrajectoryPlanning',['../namespaceCore_1_1Services_1_1Animation_1_1TrajectoryPlanning.html',1,'Core::Services::Animation']]]
+  ['addneighbour_0',['AddNeighbour',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html#ae06289339a041dbe5b0b5cfaa90a5f8e',1,'Core::Services::Animation::TrajectoryPlanning::AStarGrid']]],
+  ['animate_1',['animate',['../classanimate.html',1,'']]],
+  ['animate_2ecs_2',['animate.cs',['../animate_8cs.html',1,'']]],
+  ['animationgameobject_3',['animationGameObject',['../classCore_1_1Services_1_1Animation_1_1Debug_1_1DebugAnimationBehaviour.html#a1873f1b910c9ccf7c11f4a87f8668c10',1,'Core::Services::Animation::Debug::DebugAnimationBehaviour']]],
+  ['animationgameobject_4',['AnimationGameObject',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#acbc7d05956ab1eff40164fa20c7801f9',1,'Core.Services.Animation.TrajectoryPlanning.AStarAgent.AnimationGameObject()'],['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#aa76b3836d9fba0b222eb7967b86b1e8f',1,'Core.Services.Animation.AnimationManager.AnimationGameObject()']]],
+  ['animationmanager_5',['animationManager',['../classCore_1_1Services_1_1Animation_1_1Debug_1_1DebugAnimationBehaviour.html#a5efa670f9f5b082020776ce628988c79',1,'Core.Services.Animation.Debug.DebugAnimationBehaviour.animationManager()'],['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a74893a9e36c398bd99ffe5a57be5d9ef',1,'Core.Services.Animation.AnimationUIControl.animationManager()']]],
+  ['animationmanager_6',['AnimationManager',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html',1,'Core::Services::Animation']]],
+  ['animationmanager_2ecs_7',['AnimationManager.cs',['../AnimationManager_8cs.html',1,'']]],
+  ['animationuicontrol_8',['AnimationUIControl',['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a2d13395bda83c90ba3be7d27c272f01e',1,'Core.Services.Animation.AnimationUIControl.AnimationUIControl()'],['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html',1,'Core.Services.Animation.AnimationUIControl']]],
+  ['animationuicontrol_2ecs_9',['AnimationUIControl.cs',['../AnimationUIControl_8cs.html',1,'']]],
+  ['animationview_2ecs_10',['AnimationView.cs',['../AnimationView_8cs.html',1,'']]],
+  ['astaragent_11',['AStarAgent',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html',1,'Core::Services::Animation::TrajectoryPlanning']]],
+  ['astaragent_2ecs_12',['AStarAgent.cs',['../AStarAgent_8cs.html',1,'']]],
+  ['astargrid_13',['AStarGrid',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html',1,'Core::Services::Animation::TrajectoryPlanning']]],
+  ['astargrid_2ecs_14',['AStarGrid.cs',['../AStarGrid_8cs.html',1,'']]]
 ];

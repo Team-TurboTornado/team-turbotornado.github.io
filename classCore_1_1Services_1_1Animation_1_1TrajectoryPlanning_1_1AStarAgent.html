@@ -71,6 +71,10 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Core.Services.Animation.TrajectoryPlanning.AStarAgent Class Reference</div></div>
 </div><!--header-->
@@ -89,8 +93,10 @@ Collaboration diagram for Core.Services.Animation.TrajectoryPlanning.AStarAgent:
 <div class="dyncontent">
 <div class="center"><img src="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent__coll__graph.png" border="0" usemap="#aCore_8Services_8Animation_8TrajectoryPlanning_8AStarAgent_coll__map" alt="Collaboration graph"/></div>
 <map name="aCore_8Services_8Animation_8TrajectoryPlanning_8AStarAgent_coll__map" id="aCore_8Services_8Animation_8TrajectoryPlanning_8AStarAgent_coll__map">
-<area shape="rect" title=" " alt="" coords="5,80,204,121"/>
-<area shape="rect" title=" " alt="" coords="45,5,164,32"/>
+<area shape="rect" title=" " alt="" coords="571,65,769,106"/>
+<area shape="rect" title=" " alt="" coords="39,30,158,56"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html" title=" " alt="" coords="268,65,457,106"/>
+<area shape="rect" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html" title=" " alt="" coords="5,90,192,132"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -135,6 +141,50 @@ Properties</h2></td></tr>
 <tr class="separator:aa89f9876b8df5365953196a79d5a79e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac50fabf010ae98beb64f563741e1296f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ac50fabf010ae98beb64f563741e1296f">ShowDebugGrid</a><code> [get, set]</code></td></tr>
 <tr class="separator:ac50fabf010ae98beb64f563741e1296f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aab720b7f86caaa70faa39be2fae4bc25"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aab720b7f86caaa70faa39be2fae4bc25">DetermineTargetPositionWithDistance</a> (Vector3 startPosition, Vector3 targetPosition)</td></tr>
+<tr class="separator:aab720b7f86caaa70faa39be2fae4bc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb8c8a3c0f17ddb22e00b924ed62ffa"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a4eb8c8a3c0f17ddb22e00b924ed62ffa">Pathfinding</a> ()</td></tr>
+<tr class="separator:a4eb8c8a3c0f17ddb22e00b924ed62ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74b23fcf61160a18e5820d22de22615"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ad74b23fcf61160a18e5820d22de22615">ReconstructPath</a> (<a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a> current, IReadOnlyList&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a>[][]&gt; dataSet)</td></tr>
+<tr class="separator:ad74b23fcf61160a18e5820d22de22615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:aa2799a03cdb2803bc639be1ff47cea7b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aa2799a03cdb2803bc639be1ff47cea7b">DetermineMaxBoundMagnitude</a> (GameObject animationGameObject)</td></tr>
+<tr class="separator:aa2799a03cdb2803bc639be1ff47cea7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aac29b200d4aaf26ebab5b6a5908fdd"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a4aac29b200d4aaf26ebab5b6a5908fdd">HeuristicFunction</a> (Vector3 p1, Vector3 p2)</td></tr>
+<tr class="separator:a4aac29b200d4aaf26ebab5b6a5908fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743bd6c84b97ce94c9a4624c85a8b1ef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a743bd6c84b97ce94c9a4624c85a8b1ef">Heapify</a> (IList&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a> &gt; list, int i)</td></tr>
+<tr class="separator:a743bd6c84b97ce94c9a4624c85a8b1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8ab6995fe432d97bdb270dbcf3528f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aa8ab6995fe432d97bdb270dbcf3528f0">HeapDeletion</a> (IList&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a> &gt; list, int i)</td></tr>
+<tr class="separator:aa8ab6995fe432d97bdb270dbcf3528f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad418314d122d92e2ac038b46d406869c"><td class="memItemLeft" align="right" valign="top">readonly List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ad418314d122d92e2ac038b46d406869c">_resultPath</a> = new()</td></tr>
+<tr class="separator:ad418314d122d92e2ac038b46d406869c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ef98f8809e8d6723406699402f5eab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html">AStarGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a17ef98f8809e8d6723406699402f5eab">_aStarGrid</a></td></tr>
+<tr class="separator:a17ef98f8809e8d6723406699402f5eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac04acb5bd2d99245dc2244b22b8983bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ac04acb5bd2d99245dc2244b22b8983bb">_startNode</a></td></tr>
+<tr class="separator:ac04acb5bd2d99245dc2244b22b8983bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e508b8bdea9a656e71aca45e9dd4748"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a0e508b8bdea9a656e71aca45e9dd4748">_startPosition</a></td></tr>
+<tr class="separator:a0e508b8bdea9a656e71aca45e9dd4748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c095a415f643acd652d22486c52168a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a6c095a415f643acd652d22486c52168a">_targetNode</a></td></tr>
+<tr class="separator:a6c095a415f643acd652d22486c52168a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0470bfa08a23f060a5d6bdb13e2410d"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ae0470bfa08a23f060a5d6bdb13e2410d">_targetPosition</a></td></tr>
+<tr class="separator:ae0470bfa08a23f060a5d6bdb13e2410d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb464d76f910a3e3347e8545e1a6bb27"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aeb464d76f910a3e3347e8545e1a6bb27">_targetPositionWithOffset</a></td></tr>
+<tr class="separator:aeb464d76f910a3e3347e8545e1a6bb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a740aa9a0152134bf565930bc3a805fd7"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a740aa9a0152134bf565930bc3a805fd7">_totalPath</a></td></tr>
+<tr class="separator:a740aa9a0152134bf565930bc3a805fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a72d6d8c02fc9605fde7d2ba4fec6d3e9"><td class="memItemLeft" align="right" valign="top">static readonly List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a72d6d8c02fc9605fde7d2ba4fec6d3e9">PathVisualizer</a> = new()</td></tr>
+<tr class="separator:a72d6d8c02fc9605fde7d2ba4fec6d3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >handling the trajectory planning </p>
@@ -162,6 +212,70 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >destroys all existing visualisers </p>
+
+</div>
+</div>
+<a id="aa2799a03cdb2803bc639be1ff47cea7b" name="aa2799a03cdb2803bc639be1ff47cea7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2799a03cdb2803bc639be1ff47cea7b">&#9670;&nbsp;</a></span>DetermineMaxBoundMagnitude()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Core.Services.Animation.TrajectoryPlanning.AStarAgent.DetermineMaxBoundMagnitude </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>animationGameObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >determines the diagonal length of the minimum required bounding box </p>
+
+</div>
+</div>
+<a id="aab720b7f86caaa70faa39be2fae4bc25" name="aab720b7f86caaa70faa39be2fae4bc25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab720b7f86caaa70faa39be2fae4bc25">&#9670;&nbsp;</a></span>DetermineTargetPositionWithDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.TrajectoryPlanning.AStarAgent.DetermineTargetPositionWithDistance </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>startPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>targetPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Determines a position at a distance which is approached by A*. This is necessary because the target position often has a collision. </p>
 
 </div>
 </div>
@@ -262,6 +376,180 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aa8ab6995fe432d97bdb270dbcf3528f0" name="aa8ab6995fe432d97bdb270dbcf3528f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8ab6995fe432d97bdb270dbcf3528f0">&#9670;&nbsp;</a></span>HeapDeletion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Core.Services.Animation.TrajectoryPlanning.AStarAgent.HeapDeletion </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a> &gt;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >destroys the entire heap </p>
+
+</div>
+</div>
+<a id="a743bd6c84b97ce94c9a4624c85a8b1ef" name="a743bd6c84b97ce94c9a4624c85a8b1ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a743bd6c84b97ce94c9a4624c85a8b1ef">&#9670;&nbsp;</a></span>Heapify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Core.Services.Animation.TrajectoryPlanning.AStarAgent.Heapify </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a> &gt;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Rearrange heap to ensure heap property </p>
+
+</div>
+</div>
+<a id="a4aac29b200d4aaf26ebab5b6a5908fdd" name="a4aac29b200d4aaf26ebab5b6a5908fdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aac29b200d4aaf26ebab5b6a5908fdd">&#9670;&nbsp;</a></span>HeuristicFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float Core.Services.Animation.TrajectoryPlanning.AStarAgent.HeuristicFunction </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >The heuristic function of the A* algorithm </p>
+
+</div>
+</div>
+<a id="a4eb8c8a3c0f17ddb22e00b924ed62ffa" name="a4eb8c8a3c0f17ddb22e00b924ed62ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb8c8a3c0f17ddb22e00b924ed62ffa">&#9670;&nbsp;</a></span>Pathfinding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> &gt; Core.Services.Animation.TrajectoryPlanning.AStarAgent.Pathfinding </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >starts the trajectory planning </p>
+
+</div>
+</div>
+<a id="ad74b23fcf61160a18e5820d22de22615" name="ad74b23fcf61160a18e5820d22de22615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad74b23fcf61160a18e5820d22de22615">&#9670;&nbsp;</a></span>ReconstructPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> &gt; Core.Services.Animation.TrajectoryPlanning.AStarAgent.ReconstructPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a>&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IReadOnlyList&lt; <a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html">NodeData</a>[][]&gt;&#160;</td>
+          <td class="paramname"><em>dataSet</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Read result path from the specified A* tree </p>
+
+</div>
+</div>
 <a id="abc5b2841a36a630f50006b79ae7df393" name="abc5b2841a36a630f50006b79ae7df393"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc5b2841a36a630f50006b79ae7df393">&#9670;&nbsp;</a></span>SetCollisionVisualizers()</h2>
 
@@ -317,6 +605,182 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a17ef98f8809e8d6723406699402f5eab" name="a17ef98f8809e8d6723406699402f5eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ef98f8809e8d6723406699402f5eab">&#9670;&nbsp;</a></span>_aStarGrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html">AStarGrid</a> Core.Services.Animation.TrajectoryPlanning.AStarAgent._aStarGrid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad418314d122d92e2ac038b46d406869c" name="ad418314d122d92e2ac038b46d406869c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad418314d122d92e2ac038b46d406869c">&#9670;&nbsp;</a></span>_resultPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;Vector3&gt; Core.Services.Animation.TrajectoryPlanning.AStarAgent._resultPath = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac04acb5bd2d99245dc2244b22b8983bb" name="ac04acb5bd2d99245dc2244b22b8983bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04acb5bd2d99245dc2244b22b8983bb">&#9670;&nbsp;</a></span>_startNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> Core.Services.Animation.TrajectoryPlanning.AStarAgent._startNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e508b8bdea9a656e71aca45e9dd4748" name="a0e508b8bdea9a656e71aca45e9dd4748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e508b8bdea9a656e71aca45e9dd4748">&#9670;&nbsp;</a></span>_startPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.TrajectoryPlanning.AStarAgent._startPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c095a415f643acd652d22486c52168a" name="a6c095a415f643acd652d22486c52168a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c095a415f643acd652d22486c52168a">&#9670;&nbsp;</a></span>_targetNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a> Core.Services.Animation.TrajectoryPlanning.AStarAgent._targetNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0470bfa08a23f060a5d6bdb13e2410d" name="ae0470bfa08a23f060a5d6bdb13e2410d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0470bfa08a23f060a5d6bdb13e2410d">&#9670;&nbsp;</a></span>_targetPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.TrajectoryPlanning.AStarAgent._targetPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb464d76f910a3e3347e8545e1a6bb27" name="aeb464d76f910a3e3347e8545e1a6bb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb464d76f910a3e3347e8545e1a6bb27">&#9670;&nbsp;</a></span>_targetPositionWithOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Core.Services.Animation.TrajectoryPlanning.AStarAgent._targetPositionWithOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a740aa9a0152134bf565930bc3a805fd7" name="a740aa9a0152134bf565930bc3a805fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a740aa9a0152134bf565930bc3a805fd7">&#9670;&nbsp;</a></span>_totalPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html">GridNode</a>&gt; Core.Services.Animation.TrajectoryPlanning.AStarAgent._totalPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1d5992b158a8b94e308882afc10e0985" name="a1d5992b158a8b94e308882afc10e0985"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d5992b158a8b94e308882afc10e0985">&#9670;&nbsp;</a></span>CollisionVisualizer</h2>
 
@@ -333,6 +797,28 @@ Properties</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72d6d8c02fc9605fde7d2ba4fec6d3e9" name="a72d6d8c02fc9605fde7d2ba4fec6d3e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72d6d8c02fc9605fde7d2ba4fec6d3e9">&#9670;&nbsp;</a></span>PathVisualizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;GameObject&gt; Core.Services.Animation.TrajectoryPlanning.AStarAgent.PathVisualizer = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
