@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['generatespherevisualizer_0',['GenerateSphereVisualizer',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a0fb74f598139b3a93bf8cfa91b87f715',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
-  ['getclosestpointworldspace_1',['GetClosestPointWorldSpace',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html#a3eb8779bd90817b783f9bdc10d7796b0',1,'Core::Services::Animation::TrajectoryPlanning::AStarGrid']]],
-  ['getnodeposition_2',['GetNodePosition',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a6a4817fbc20f26c1105d00eac67dfbe2',1,'Core::Services::Animation::AnimationManager']]],
-  ['getnodeslength_3',['GetNodesLength',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#accb6374a4667ca9b4af98800d623bad1',1,'Core::Services::Animation::AnimationManager']]],
-  ['getresultpath_4',['GetResultPath',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#ab085d2c7924acdb5d4dd5351b178fbdd',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]]
+  ['heapdeletion_0',['HeapDeletion',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aa8ab6995fe432d97bdb270dbcf3528f0',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
+  ['heapify_1',['Heapify',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a743bd6c84b97ce94c9a4624c85a8b1ef',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
+  ['heuristicfunction_2',['HeuristicFunction',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a4aac29b200d4aaf26ebab5b6a5908fdd',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]]
 ];
