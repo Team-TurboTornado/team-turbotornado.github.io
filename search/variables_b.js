@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['worldposition_0',['WorldPosition',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html#a063fb93e84628c4fd55387f36bc1e49b',1,'Core::Services::Animation::TrajectoryPlanning::GridNode']]]
+  ['resolution_0',['resolution',['../classCore_1_1Services_1_1Animation_1_1Debug_1_1DebugAnimationBehaviour.html#a240b9067862f4df2fb2027a9b5ce8c91',1,'Core::Services::Animation::Debug::DebugAnimationBehaviour']]]
 ];

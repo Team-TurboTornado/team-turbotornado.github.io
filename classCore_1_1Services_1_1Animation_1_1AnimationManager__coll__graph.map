@@ -1,8 +1,8 @@
 <map id="Core.Services.Animation.AnimationManager" name="Core.Services.Animation.AnimationManager">
 <area shape="rect" id="node1" title=" " alt="" coords="995,64,1161,105"/>
 <area shape="rect" id="node2" title=" " alt="" coords="39,97,158,123"/>
-<area shape="rect" id="node3" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html" title=" " alt="" coords="672,167,871,208"/>
-<area shape="rect" id="node4" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html" title=" " alt="" coords="268,212,457,253"/>
+<area shape="rect" id="node3" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html" title=" " alt="" coords="672,148,871,189"/>
+<area shape="rect" id="node4" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html" title=" " alt="" coords="268,173,457,215"/>
 <area shape="rect" id="node6" href="$classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html" title=" " alt="" coords="481,5,648,47"/>
-<area shape="rect" id="node5" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html" title=" " alt="" coords="5,256,192,297"/>
+<area shape="rect" id="node5" href="$classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html" title=" " alt="" coords="5,223,192,264"/>
 </map>

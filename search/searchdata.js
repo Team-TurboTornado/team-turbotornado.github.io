@@ -5,8 +5,10 @@ var indexSectionsWithContent =
   2: "c",
   3: "adl",
   4: "acdeghilnoprsu",
-  5: "_acdfgimnpsw",
-  6: "acdfgnpst"
+  5: "_acdfgimnoprsw",
+  6: "r",
+  7: "hlm",
+  8: "acdfgnpst"
 };
 
 var indexSectionNames =
@@ -17,7 +19,9 @@ var indexSectionNames =
   3: "files",
   4: "functions",
   5: "variables",
-  6: "properties"
+  6: "enums",
+  7: "enumvalues",
+  8: "properties"
 };
 
 var indexSectionLabels =
@@ -28,6 +32,8 @@ var indexSectionLabels =
   3: "Files",
   4: "Functions",
   5: "Variables",
-  6: "Properties"
+  6: "Enumerations",
+  7: "Enumerator",
+  8: "Properties"
 };
 
