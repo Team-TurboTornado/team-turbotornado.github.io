@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['highlightingeffectlink_0',['HighlightingEffectLink',['../classCore_1_1Models_1_1Highlighting.html#af2f05f45115e4f6e7d16d72287bda635',1,'Core::Models::Highlighting']]]
+  ['animationmanager_0',['animationManager',['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a74893a9e36c398bd99ffe5a57be5d9ef',1,'Core::Services::Animation::AnimationUIControl']]]
 ];

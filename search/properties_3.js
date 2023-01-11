@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['position_0',['Position',['../classAssets_1_1Core_1_1Services_1_1Camera_1_1UserInput.html#abd9eead5d09ac19fcaeb31ef3e64e9e2',1,'Assets::Core::Services::Camera::UserInput']]]
+  ['forbiddenradius_0',['ForbiddenRadius',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html#a173d00871667cd2a45bd655135aaf7ca',1,'Core::Services::Animation::TrajectoryPlanning::AStarGrid']]]
 ];
