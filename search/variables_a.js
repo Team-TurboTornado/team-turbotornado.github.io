@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pathvisualizer_0',['pathVisualizer',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a462519b08e6750b9075e8c1904ff4ea5',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]]
+  ['pathvisualizer_0',['PathVisualizer',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a72d6d8c02fc9605fde7d2ba4fec6d3e9',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]]
 ];

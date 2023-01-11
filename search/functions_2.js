@@ -1,7 +1,7 @@
 var searchData=
 [
   ['decreasespeed_0',['DecreaseSpeed',['../classCore_1_1Services_1_1Animation_1_1AnimationUIControl.html#a9fd161b88e4357dc91ae3b4ae80387bc',1,'Core::Services::Animation::AnimationUIControl']]],
-  ['destroydots_1',['DestroyDots',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a507bf88b0e4dd02adcfeb7f924f6d319',1,'Core.Services.Animation.AnimationManager.DestroyDots()'],['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a15d7a9b31ecbeac12e733aaf83b1a77b',1,'Core.Services.Animation.TrajectoryPlanning.AStarAgent.DestroyDots()']]],
+  ['destroydots_1',['DestroyDots',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a507bf88b0e4dd02adcfeb7f924f6d319',1,'Core.Services.Animation.AnimationManager.DestroyDots()'],['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a9fb3d4fbc680e7ab6ce69be8f65d34c3',1,'Core.Services.Animation.TrajectoryPlanning.AStarAgent.DestroyDots()']]],
   ['determinegrid_2',['DetermineGrid',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html#a2f2eb64de514e3cc3ba29739bc3cffde',1,'Core::Services::Animation::TrajectoryPlanning::AStarGrid']]],
   ['determinemaxboundmagnitude_3',['DetermineMaxBoundMagnitude',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aa2799a03cdb2803bc639be1ff47cea7b',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
   ['determinetargetpositionwithdistance_4',['DetermineTargetPositionWithDistance',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#aab720b7f86caaa70faa39be2fae4bc25',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]],
