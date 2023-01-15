@@ -10,7 +10,7 @@ var searchData=
   ['collisionvisualizerpositions_7',['collisionVisualizerPositions',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarGrid.html#af98f91c14e5b68682d66327a46e2ddcd',1,'Core::Services::Animation::TrajectoryPlanning::AStarGrid']]],
   ['coords_8',['Coords',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1NodeData.html#af7380bdcc8507e765b3c9b99a9bdeaa9',1,'Core.Services.Animation.TrajectoryPlanning.NodeData.Coords()'],['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html#adfdaeaf795ff5d597857ff0a636530c3',1,'Core.Services.Animation.TrajectoryPlanning.GridNode.Coords()']]],
   ['core_9',['Core',['../namespaceCore.html',1,'']]],
-  ['count_10',['Count',['../classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#af75158a86bf34f784e0af336db119c18',1,'Core::Services::Animation::Lerp::LerpHelper']]],
+  ['currentindex_10',['CurrentIndex',['../classCore_1_1Services_1_1Animation_1_1Lerp_1_1LerpHelper.html#afbe4905bfba1054f3255f87ece466fe2',1,'Core::Services::Animation::Lerp::LerpHelper']]],
   ['debug_11',['Debug',['../namespaceCore_1_1Services_1_1Animation_1_1Debug.html',1,'Core::Services::Animation']]],
   ['lerp_12',['Lerp',['../namespaceCore_1_1Services_1_1Animation_1_1Lerp.html',1,'Core::Services::Animation']]],
   ['services_13',['Services',['../namespaceCore_1_1Services.html',1,'Core']]],

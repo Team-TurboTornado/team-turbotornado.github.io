@@ -131,15 +131,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:accb6374a4667ca9b4af98800d623bad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4817fbc20f26c1105d00eac67dfbe2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a6a4817fbc20f26c1105d00eac67dfbe2">GetNodePosition</a> ()</td></tr>
 <tr class="separator:a6a4817fbc20f26c1105d00eac67dfbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de1bee604f3631051f76998caa0f420"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a8de1bee604f3631051f76998caa0f420">IsAnimationFinished</a> ()</td></tr>
+<tr class="separator:a8de1bee604f3631051f76998caa0f420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:abac7e84664383120f63ee611437f0cc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#abac7e84664383120f63ee611437f0cc5">gridNodeCount</a> = (int) <a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a31f76717d41b4b55b8b51ed2d346192aa87f8a6ab85c9ced3702b4ea641ad4bb5">Resolution.Medium</a></td></tr>
+<tr class="memitem:abac7e84664383120f63ee611437f0cc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#abac7e84664383120f63ee611437f0cc5">gridNodeCount</a> = (int)<a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a31f76717d41b4b55b8b51ed2d346192aa87f8a6ab85c9ced3702b4ea641ad4bb5">Resolution.Medium</a></td></tr>
 <tr class="separator:abac7e84664383120f63ee611437f0cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d2a290a7f6d5457f85d120909370ca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#ab3d2a290a7f6d5457f85d120909370ca">speed</a> = 1f</td></tr>
 <tr class="separator:ab3d2a290a7f6d5457f85d120909370ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a352fce2a29749b21fcdb95170da6a2d4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a352fce2a29749b21fcdb95170da6a2d4">depthInComponent</a> = 0.15f</td></tr>
-<tr class="separator:a352fce2a29749b21fcdb95170da6a2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a255c65ed33642e2e4d8987d67243de7d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a255c65ed33642e2e4d8987d67243de7d">debugVisualizerSize</a> = 0.01f</td></tr>
 <tr class="separator:a255c65ed33642e2e4d8987d67243de7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af286e6c9a836328bd9cd06c7144c5c62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#af286e6c9a836328bd9cd06c7144c5c62">showDebugGrid</a> = true</td></tr>
@@ -340,6 +340,23 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8de1bee604f3631051f76998caa0f420" name="a8de1bee604f3631051f76998caa0f420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de1bee604f3631051f76998caa0f420">&#9670;&nbsp;</a></span>IsAnimationFinished()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Core.Services.Animation.AnimationManager.IsAnimationFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0dfa96fbfabce88c5fea0b0159a91248" name="a0dfa96fbfabce88c5fea0b0159a91248"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dfa96fbfabce88c5fea0b0159a91248">&#9670;&nbsp;</a></span>SetCollisionVisualizer()</h2>
 
@@ -522,20 +539,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a352fce2a29749b21fcdb95170da6a2d4" name="a352fce2a29749b21fcdb95170da6a2d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a352fce2a29749b21fcdb95170da6a2d4">&#9670;&nbsp;</a></span>depthInComponent</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Core.Services.Animation.AnimationManager.depthInComponent = 0.15f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abac7e84664383120f63ee611437f0cc5" name="abac7e84664383120f63ee611437f0cc5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abac7e84664383120f63ee611437f0cc5">&#9670;&nbsp;</a></span>gridNodeCount</h2>
 
@@ -543,7 +546,7 @@ Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Core.Services.Animation.AnimationManager.gridNodeCount = (int) <a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a31f76717d41b4b55b8b51ed2d346192aa87f8a6ab85c9ced3702b4ea641ad4bb5">Resolution.Medium</a></td>
+          <td class="memname">int Core.Services.Animation.AnimationManager.gridNodeCount = (int)<a class="el" href="classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a31f76717d41b4b55b8b51ed2d346192aa87f8a6ab85c9ced3702b4ea641ad4bb5">Resolution.Medium</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
