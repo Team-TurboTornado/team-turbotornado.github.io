@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['origincameraposition_0',['originCameraPosition',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#ab06ba37ffb35cea79117b9e35e40bdb5',1,'Core::Services::Animation::AnimationManager']]]
+  ['pathvisualizer_0',['PathVisualizer',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1AStarAgent.html#a72d6d8c02fc9605fde7d2ba4fec6d3e9',1,'Core::Services::Animation::TrajectoryPlanning::AStarAgent']]]
 ];

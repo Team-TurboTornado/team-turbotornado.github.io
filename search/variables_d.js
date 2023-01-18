@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['useorigincameraposition_0',['useOriginCameraPosition',['../classCore_1_1Services_1_1Animation_1_1AnimationManager.html#a16e9f20f37ca5588cbdabab1ee6cab8d',1,'Core::Services::Animation::AnimationManager']]]
+  ['worldposition_0',['WorldPosition',['../classCore_1_1Services_1_1Animation_1_1TrajectoryPlanning_1_1GridNode.html#a063fb93e84628c4fd55387f36bc1e49b',1,'Core::Services::Animation::TrajectoryPlanning::GridNode']]]
 ];
